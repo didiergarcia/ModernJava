@@ -61,14 +61,14 @@ public class Repository {
   private static List<JiraProject> listJiraProjects() {
     List<JiraProject> projects = new ArrayList<>();
 
-    projects.add(new JiraProject(8, "ATT Server Release", "ATTREL", "ATT Server Release Project"));
-    projects.add(new JiraProject(7, "SPT Server Release", "SPTREL", "SPT Server Release Project"));
-    projects.add(new JiraProject(6, "VZW Server Release", "VZWREL", "VZW Server Release Project"));
-    projects.add(new JiraProject(5, "APK Releases", "APKREL", "APK Release Project"));
-    projects.add(new JiraProject(4, "ATT Content Pack", "ATTC", "ATT Content Pack Project"));
-    projects.add(new JiraProject(3, "SPT Content Pack", "SPTC", "SPT Content Pack Project"));
-    projects.add(new JiraProject(2, "VZW Content Pack", "VZWC", "VZW Content Pack Project"));
-    projects.add(new JiraProject(1, "WebShell", "WEBS", "APK Project"));
+    projects.add(new JiraProject(8, "Foo Project", "FOO", "FOO Project is Awesome"));
+    projects.add(new JiraProject(7, "Bar Project", "BAR", "BAR Project is Great"));
+    projects.add(new JiraProject(6, "Widget Project", "WIDGET", "WIDGET Project Tracks Widgets"));
+    projects.add(new JiraProject(5, "Website Project", "WEB", "WEB Project"));
+    projects.add(new JiraProject(4, "Android Proejct", "ANDROID", "ANDROID Product"));
+    projects.add(new JiraProject(3, "Requirements Project", "REQ", "REQ Project"));
+    projects.add(new JiraProject(2, "Inventory Project", "INV", "INV Project"));
+    projects.add(new JiraProject(1, "C Project", "C", "C Project"));
 
     return projects;
   }
